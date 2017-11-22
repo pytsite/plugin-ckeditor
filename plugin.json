@@ -1,0 +1,19 @@
+{
+  "name": "ckeditor",
+  "version": "1.0",
+  "description": {
+    "en": "CKEditor",
+    "ru": "CKEditor",
+    "uk": "CKEditor"
+  },
+  "url": "https://github.com/pytsite/plugin-ckeditor",
+  "author": {
+    "name": "Alexander Shepetko",
+    "email": "a@shepetko.com",
+    "url": "https://shepetko.com"
+  },
+  "requires": {
+    "packages": [],
+    "plugins": []
+  }
+}
