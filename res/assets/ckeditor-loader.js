@@ -1,6 +1,6 @@
-define(['assetman', 'pytsite-lang', 'pytsite-http-api'], function (assetman, lang, httpApi) {
-    assetman.loadCSS('pytsite.ckeditor@ckeditor/skins/moono/editor.css');
-    window.CKEDITOR_BASEPATH = '/assets/pytsite.ckeditor/ckeditor/';
+define(['assetman', 'lang', 'http-api'], function (assetman, lang, httpApi) {
+    assetman.loadCSS('plugins.ckeditor@ckeditor/skins/moono/editor.css');
+    window.CKEDITOR_BASEPATH = '/assets/plugins.ckeditor/ckeditor/';
 
     return function (widget) {
         require(['ckeditor-vendor'], function () {

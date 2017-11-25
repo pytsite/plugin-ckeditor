@@ -1,4 +1,4 @@
-"""CKEditor Plugin Init.
+"""PytSite CKEditor Plugin
 """
 # Public API
 from . import _widget as widget
@@ -11,7 +11,7 @@ __license__ = 'MIT'
 def _init():
     """Init wrapper.
     """
-    from pytsite import assetman
+    from plugins import assetman
 
     assetman.register_package(__name__)
     assetman.t_copy(__name__ + '@ckeditor/**', 'ckeditor')

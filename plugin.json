@@ -14,6 +14,11 @@
   },
   "requires": {
     "packages": [],
-    "plugins": []
+    "plugins": [
+      "assetman",
+      "file",
+      "http_api",
+      "widget"
+    ]
   }
 }
