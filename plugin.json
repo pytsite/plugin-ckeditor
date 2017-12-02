@@ -1,6 +1,6 @@
 {
   "name": "ckeditor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": {
     "en": "CKEditor",
     "ru": "CKEditor",
@@ -16,7 +16,7 @@
     "packages": [],
     "plugins": [
       "assetman",
-      "file",
+      "file_ui",
       "http_api",
       "widget"
     ]
