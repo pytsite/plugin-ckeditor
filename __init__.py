@@ -13,10 +13,6 @@ def plugin_load():
 
     assetman.register_package(__name__)
 
-
-def plugin_load_console():
-    from plugins import assetman
-
     assetman.t_copy(__name__ + '@ckeditor/**', 'ckeditor')
     assetman.t_js(__name__)
 
