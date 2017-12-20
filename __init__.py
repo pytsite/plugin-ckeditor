@@ -22,3 +22,10 @@ def plugin_load():
     assetman.js_module('ckeditor-vendor', __name__ + '@ckeditor/ckeditor.min', True)
     assetman.js_module('ckeditor-jquery', __name__ + '@ckeditor/adapters/jquery', True, ['jquery'])
     assetman.js_module('ckeditor', __name__ + '@ckeditor-loader')
+
+
+def plugin_install():
+    from plugins import assetman
+
+    plugin_load()
+    assetman.build(__name__)

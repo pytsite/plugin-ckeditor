@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 1.1.3 (2017-12-20)
+
+Installation hook added.
+
+
 ### 1.1.2 (2017-12-14)
 
 Init fixed.
