@@ -1,15 +1,15 @@
 """PytSite CKEditor Plugin Widgets
 """
-from pytsite import html as _html
-from plugins import widget as _widget
-
 __author__ = 'Alexander Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
+from pytsite import html as _html
+from plugins import widget as _widget
+
 
 class CKEditor(_widget.Abstract):
-    """CKEditor Widget.
+    """CKEditor Widget
     """
 
     def __init__(self, uid: str, **kwargs):
@@ -17,8 +17,8 @@ class CKEditor(_widget.Abstract):
         """
         super().__init__(uid, **kwargs)
 
-        self._css = ' '.join((self._css, 'widget-ckeditor'))
-        self._js_module = 'ckeditor'
+        self._css += ' widget-ckeditor'
+        self._js_modules.append('ckeditor')
 
     def _get_element(self, **kwargs) -> _html.Element:
         """Get HTML element of the widget.
