@@ -4,6 +4,12 @@
 ## Changelog
 
 
+### 1.3.1 (2018-07-13)
+
+- Vendor's assets compilation removed due to permanent errors while
+  JS code minification.
+
+
 ### 1.3 (2018-07-13)
 
 - Files with CRLF ending fixed.
