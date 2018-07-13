@@ -4,6 +4,12 @@
 ## Changelog
 
 
+### 1.3 (2018-07-13)
+
+- Files with CRLF ending fixed.
+- Plugin size reduced due to unused languages removal.
+
+
 ### 1.2 (2018-05-13)
 
 Support of `widget-2.0`.
