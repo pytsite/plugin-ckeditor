@@ -1,6 +1,6 @@
 {
   "name": "ckeditor",
-  "version": "1.3.1",
+  "version": "2.0",
   "description": {
     "en": "CKEditor",
     "ru": "CKEditor",
@@ -8,16 +8,17 @@
   },
   "url": "https://github.com/pytsite/plugin-ckeditor",
   "author": {
-    "name": "Alexander Shepetko",
+    "name": "Oleksandr Shepetko",
     "email": "a@shepetko.com",
     "url": "https://shepetko.com"
   },
   "requires": {
-    "plugins": [
-      "assetman",
-      "file_ui",
-      "http_api",
-      "widget>=2.0"
-    ]
+    "pytsite": "8.x",
+    "plugins": {
+      "assetman": "3.x",
+      "file_ui": "2.x",
+      "http_api": "3.x",
+      "widget": "3.x"
+    }
   }
 }

@@ -1,0 +1,9 @@
+{
+  "name": "@pytsite/ckeditor",
+  "main": "empty.js",
+  "dependencies": {
+    "ckeditor": "4.x",
+    "jquery": "3.x",
+    "copy-webpack-plugin": "4.x"
+  }
+}

@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.0 (2018-08-10)
+
+Support of `pytsite-8.x`, `assetman-3.x` and `widget-3.x`.
+
+
 ### 1.3.1 (2018-07-13)
 
 - Vendor's assets compilation removed due to permanent errors while

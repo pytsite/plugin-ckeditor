@@ -186,14 +186,14 @@ New style themes:
 
 - Monokai Sublime by [noformnocontent][]
 - Railscasts by [Damien White][]
-- Obsidian by [Alexander Marenin][]
+- Obsidian by [Oleksandr Marenin][]
 - Docco by [Simon Madine][]
 - Mono Blue by [Ivan Sagalaev][] (uses a single color hue for everything)
 - Foundation by [Dan Allen][]
 
 [noformnocontent]: http://nn.mit-license.org/
 [Damien White]: https://github.com/visoft
-[Alexander Marenin]: https://github.com/ioncreature
+[Oleksandr Marenin]: https://github.com/ioncreature
 [Simon Madine]: https://github.com/thingsinjars
 [Ivan Sagalaev]: https://github.com/isagalaev
 
@@ -328,7 +328,7 @@ from all this activity:
 
 - 5 (five!) new languages: Rust, ActionScript, CoffeeScript, MatLab and
   experimental support for markdown. Thanks go to [Andrey Vlasovskikh][av],
-  [Alexander Myadzel][am], [Dmytrii Nagirniak][dn], [Oleg Efimov][oe], [Denis
+  [Oleksandr Myadzel][am], [Dmytrii Nagirniak][dn], [Oleg Efimov][oe], [Denis
   Bardadym][db] and [John Crepezzi][jc].
 
 - 2 new style themes: Monokai by [Luigi Maselli][lm] and stylistic imitation of
@@ -643,7 +643,7 @@ Other changes:
 Languages:
 
 - Bash from Vah
-- DOS bat-files from Alexander Makarov (Sam)
+- DOS bat-files from Oleksandr Makarov (Sam)
 - Diff files from Vasily Polovnyov
 - Ini files from myself though initial idea was from Sam
 
