@@ -1,6 +1,6 @@
 {
   "name": "ckeditor",
-  "version": "2.0",
+  "version": "2.1",
   "description": {
     "en": "CKEditor",
     "ru": "CKEditor",
@@ -13,9 +13,9 @@
     "url": "https://shepetko.com"
   },
   "requires": {
-    "pytsite": "8.x",
+    "pytsite": ">=8",
     "plugins": {
-      "assetman": "3.x",
+      "assetman": "4.x",
       "file_ui": "2.x",
       "http_api": "3.x",
       "widget": "3.x"
