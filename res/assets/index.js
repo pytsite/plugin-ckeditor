@@ -1,10 +1,10 @@
-const $ = require('jquery');
-const assetman = require('@pytsite/assetman');
-const httpApi = require('@pytsite/http-api');
+import setupWidget from '@pytsite/widget';
+import assetman from '@pytsite/assetman';
+import httpApi from '@pytsite/http-api';
 
-assetman.load('ckeditor@ckeditor/ckeditor.js');
+assetman.load('plugins.ckeditor@ckeditor/ckeditor.js');
 
-require('@pytsite/widget').onWidgetLoad('plugins.ckeditor._widget.CKEditor', (widget) => {
+setupWidget('plugins.ckeditor._widget.CKEditor', widget => {
     window.CKEDITOR_BASEPATH = '/assets/ckeditor/ckeditor/';
 
     widget.em.find('textarea').each(function () {
@@ -12,7 +12,7 @@ require('@pytsite/widget').onWidgetLoad('plugins.ckeditor._widget.CKEditor', (wi
             baseHref: '/assets/plugins.ckeditor/ckeditor/',
             title: false,
             extraPlugins: 'youtube,codesnippet,stylescombo',
-            language: lang.current(),
+            language: document.documentElement.getAttribute('lang'),
             filebrowserUploadUrl: httpApi.url('file'),
             height: 500,
             toolbar: [
