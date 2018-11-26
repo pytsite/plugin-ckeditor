@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.3 (2018-11-26)
+
+Support of `http_api-3.3`.
+
+
 ### 2.2.1 (2018-10-29)
 
 Automatic assets building fixed.

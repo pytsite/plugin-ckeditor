@@ -1,6 +1,5 @@
 import setupWidget from '@pytsite/widget';
 import assetman from '@pytsite/assetman';
-import httpApi from '@pytsite/http-api';
 
 assetman.load('plugins.ckeditor@ckeditor/ckeditor.js');
 
@@ -13,7 +12,7 @@ setupWidget('plugins.ckeditor._widget.CKEditor', widget => {
             title: false,
             extraPlugins: 'youtube,codesnippet,stylescombo',
             language: document.documentElement.getAttribute('lang'),
-            filebrowserUploadUrl: httpApi.url('file'),
+            filebrowserUploadUrl: assetman.url('api/file'),
             height: 500,
             toolbar: [
                 ['Bold', 'Italic', 'Strike', 'Format', 'RemoveFormat'],
