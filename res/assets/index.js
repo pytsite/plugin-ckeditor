@@ -1,4 +1,5 @@
 import setupWidget from '@pytsite/widget';
+import assetman from '@pytsite/assetman';
 import httpApi from '@pytsite/http-api';
 
 assetman.load('plugins.ckeditor@ckeditor/ckeditor.js');

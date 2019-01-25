@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.4.2 (2019-01-25)
+
+Missing JS import fixed.
+
+
 ### 2.4.1 (2019-01-25)
 
 Typos fixed.
