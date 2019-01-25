@@ -18,7 +18,7 @@ class CKEditor(_widget.Abstract):
         super().__init__(uid, **kwargs)
 
         self._toolbar_profile = kwargs.get('toolbar_profile', 'full')
-        self._skin = kwargs.get('toolbar_profile', 'moono')
+        self._skin = kwargs.get('skin', 'moono')
         self._css += ' widget-ckeditor'
 
     def _get_element(self, **kwargs) -> _html.Element:

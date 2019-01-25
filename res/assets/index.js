@@ -1,5 +1,5 @@
 import setupWidget from '@pytsite/widget';
-import assetman from '@pytsite/assetman';
+import httpApi from '@pytsite/http-api';
 
 assetman.load('plugins.ckeditor@ckeditor/ckeditor.js');
 
@@ -29,7 +29,7 @@ setupWidget('plugins.ckeditor._widget.CKEditor', widget => {
             ['ShowBlocks', 'Source', 'Maximize']
         ];
         extraPlugins = 'youtube,codesnippet,stylescombo';
-        filebrowserUploadUrl = assetman.url('api/file');
+        filebrowserUploadUrl = httpApi.url('file');
     }
 
     widget.em.find('textarea').each(function () {

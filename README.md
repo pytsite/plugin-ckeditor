@@ -4,9 +4,14 @@
 ## Changelog
 
 
+### 2.4.1 (2019-01-25)
+
+Typos fixed.
+
+
 ### 2.4 (2019-01-25)
 
-- New widget's parameters added: `toolbar_style` and `skin`.
+- New widget's parameters added: `toolbar_profile` and `skin`.
 - Couple of skins added.
 
 
