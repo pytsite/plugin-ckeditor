@@ -4,6 +4,12 @@
 ## Changelog
 
 
+### 2.4 (2019-01-25)
+
+- New widget's parameters added: `toolbar_style` and `skin`.
+- Couple of skins added.
+
+
 ### 2.3 (2018-11-26)
 
 Support of `http_api-3.3`.

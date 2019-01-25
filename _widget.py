@@ -17,9 +17,16 @@ class CKEditor(_widget.Abstract):
         """
         super().__init__(uid, **kwargs)
 
+        self._toolbar_profile = kwargs.get('toolbar_profile', 'full')
+        self._skin = kwargs.get('toolbar_profile', 'moono')
         self._css += ' widget-ckeditor'
 
     def _get_element(self, **kwargs) -> _html.Element:
         """Get HTML element of the widget.
         """
+        self.data.update({
+            'toolbar_profile': self._toolbar_profile,
+            'skin': self._skin,
+        })
+
         return _html.TextArea(self.get_val(), name=self._uid)
