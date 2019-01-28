@@ -43,7 +43,10 @@ setupWidget('plugins.ckeditor._widget.CKEditor', widget => {
             height: 500,
             toolbar: toolbar,
             coreStyles_italic: {element: 'i'},
-            extraAllowedContent: 'div p blockquote img ul ol li a i;span[data-*,hidden,lang](*);script[*];code(*);pre(*)',
+            extraAllowedContent:
+                'h1[id];h2[id];h3[id];h4[id];h5[id];h6[id];' +
+                'div[id];p[id];blockquote[id];img[id];ul[id];ol[id];li;a;i;' +
+                'span[data-*,hidden,lang](*);script[*];code(*);pre(*)',
             disableNativeSpellChecker: false,
             skin: widget.data('skin'),
         });

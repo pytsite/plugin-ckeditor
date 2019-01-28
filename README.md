@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.4.3 (2019-01-28)
+
+ACF settings fixed.
+
+
 ### 2.4.2 (2019-01-25)
 
 Missing JS import fixed.
