@@ -4,6 +4,7 @@ __author__ = 'Oleksandr Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
+from html import escape as _escape
 from pytsite import html as _html
 from plugins import widget as _widget
 
@@ -29,4 +30,4 @@ class CKEditor(_widget.Abstract):
             'skin': self._skin,
         })
 
-        return _html.TextArea(self.get_val(), name=self._uid)
+        return _html.TextArea(_escape(self.get_val()), name=self._uid)
