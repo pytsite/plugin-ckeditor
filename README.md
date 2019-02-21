@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.4.5 (2019-02-21)
+
+`basic` toolbar buttons set fixed.
+
+
 ### 2.4.4 (2019-02-06)
 
 HTML entities escaping fixed.

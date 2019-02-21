@@ -14,11 +14,12 @@ setupWidget('plugins.ckeditor._widget.CKEditor', widget => {
 
     if (toolbarProfile === 'basic') {
         toolbar = [
-            ['Format', 'Bold', 'Italic', 'Strike'],
-            ['JustifyLeft', 'JustifyCenter', 'JustifyRight'],
+            ['Undo', 'Redo'],
+            ['Format', 'Bold', 'Italic', 'Underline', 'Strike', '-', 'Superscript', 'Subscript'],
+            ['JustifyLeft', 'JustifyCenter', 'JustifyRight', '-', 'Outdent', 'Indent',],
             ['NumberedList', 'BulletedList'],
             ['Link', 'Unlink'],
-            ['Undo', 'Redo'],
+            ['Blockquote', 'SpecialChar', 'Table'],
         ]
     } else {
         toolbar = [
@@ -49,6 +50,7 @@ setupWidget('plugins.ckeditor._widget.CKEditor', widget => {
                 'span[data-*,hidden,lang](*);script[*];code(*);pre(*)',
             disableNativeSpellChecker: false,
             skin: widget.data('skin'),
+            removeButtons: '',
         });
 
         editor.on('change', function () {
