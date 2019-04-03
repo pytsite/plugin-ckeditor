@@ -51,6 +51,7 @@ setupWidget('plugins.ckeditor._widget.CKEditor', widget => {
             disableNativeSpellChecker: false,
             skin: widget.data('skin'),
             removeButtons: '',
+            readOnly: widget.data('enabled') === 'False',
         });
 
         editor.on('change', function () {

@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.4.6 (2019-04-03)
+
+Support of `enabled` argument fixed.
+
+
 ### 2.4.5 (2019-02-21)
 
 `basic` toolbar buttons set fixed.

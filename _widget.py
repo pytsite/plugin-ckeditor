@@ -28,6 +28,7 @@ class CKEditor(_widget.Abstract):
         self.data.update({
             'toolbar_profile': self._toolbar_profile,
             'skin': self._skin,
+            'enabled': self._enabled,
         })
 
         return _html.TextArea(_escape(self.get_val()), name=self._uid)
