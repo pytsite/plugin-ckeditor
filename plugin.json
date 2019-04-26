@@ -1,6 +1,6 @@
 {
   "name": "ckeditor",
-  "version": "2.4.6",
+  "version": "2.5",
   "description": {
     "en": "CKEditor",
     "ru": "CKEditor",
@@ -15,10 +15,10 @@
   "requires": {
     "pytsite": ">=8",
     "plugins": {
-      "assetman": "5.x",
-      "file_ui": "2.x",
-      "http_api": ">=3.3<4",
-      "widget": "4.x"
+      "assetman": "^5.2",
+      "file_ui": "^2.0",
+      "http_api": "^3.3",
+      "widget": "^4.0"
     }
   }
 }

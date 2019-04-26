@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.5 (2019-04-26)
+
+Support of `assetman-5.2`.
+
+
 ### 2.4.6 (2019-04-03)
 
 Support of `enabled` argument fixed.
