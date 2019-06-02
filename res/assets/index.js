@@ -46,7 +46,7 @@ setupWidget('plugins.ckeditor._widget.CKEditor', widget => {
             coreStyles_italic: {element: 'i'},
             extraAllowedContent:
                 'h1[id];h2[id];h3[id];h4[id];h5[id];h6[id];' +
-                'div[id];p[id];blockquote[id];img[id];ul[id];ol[id];li;a;i;' +
+                'div[id];p[id];blockquote[id];header;footer;img[id];ul[id];ol[id];li;a;i;' +
                 'span[data-*,hidden,lang](*);script[*];code(*);pre(*)',
             disableNativeSpellChecker: false,
             skin: widget.data('skin'),

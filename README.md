@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.5.1 (2019-06-03)
+
+`header` and 'footer' tags added to `extraAllowedContent` configuration.
+
+
 ### 2.5 (2019-04-26)
 
 Support of `assetman-5.2`.
