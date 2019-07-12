@@ -4,12 +4,12 @@ __author__ = 'Oleksandr Shepetko'
 __email__ = 'a@shepetko.com'
 __license__ = 'MIT'
 
-from html import escape as _escape
-from pytsite import html as _html
-from plugins import widget as _widget
+import htmler
+from html import escape as html_escape
+from plugins import widget
 
 
-class CKEditor(_widget.Abstract):
+class CKEditor(widget.Abstract):
     """CKEditor Widget
     """
 
@@ -22,7 +22,7 @@ class CKEditor(_widget.Abstract):
         self._skin = kwargs.get('skin', 'moono')
         self._css += ' widget-ckeditor'
 
-    def _get_element(self, **kwargs) -> _html.Element:
+    def _get_element(self, **kwargs) -> htmler.Element:
         """Get HTML element of the widget.
         """
         self.data.update({
@@ -31,4 +31,4 @@ class CKEditor(_widget.Abstract):
             'enabled': self._enabled,
         })
 
-        return _html.TextArea(_escape(self.get_val()), name=self._uid)
+        return htmler.Textarea(html_escape(self.get_val()), name=self._uid)

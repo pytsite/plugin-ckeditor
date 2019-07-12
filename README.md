@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.6 (2019-07-12)
+
+Support of `pytsite-9.0`.
+
+
 ### 2.5.1 (2019-06-03)
 
 `header` and 'footer' tags added to `extraAllowedContent` configuration.
