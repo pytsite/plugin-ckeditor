@@ -13,8 +13,24 @@ class CKEditor(widget.Abstract):
     """CKEditor Widget
     """
 
+    @property
+    def toolbar_profile(self) -> str:
+        return self._toolbar_profile
+
+    @toolbar_profile.setter
+    def toolbar_profile(self, value: str):
+        self._toolbar_profile = value
+
+    @property
+    def skin(self) -> str:
+        return self._skin
+
+    @skin.setter
+    def skin(self, value: str):
+        self._skin = value
+
     def __init__(self, uid: str, **kwargs):
-        """Init.
+        """Init
         """
         super().__init__(uid, **kwargs)
 

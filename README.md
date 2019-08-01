@@ -4,6 +4,11 @@
 ## Changelog
 
 
+### 2.7 (2019-08-01)
+
+`toolbar_profile` and `skin` setters/getters added.
+
+
 ### 2.6 (2019-07-12)
 
 Support of `pytsite-9.0`.
